@@ -8,7 +8,9 @@ public class Account implements IAccount  {
         this.balance = balance;
         this.currencyType = currencyType;
     }
-
+    public void addANewMethod(){
+        System.out.println("This is for check github");
+    }
     public double GetBalanceInfo(){
         return balance;
     }
