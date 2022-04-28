@@ -55,6 +55,9 @@ public class Main {
                     int amountAddMoney= scanner.nextInt();
                     transacitons.AddMoney(amountAddMoney,selectedAccount);
                     System.out.println(selectedAccount.GetBalanceInfo());
+
+                    System.out.println("This line is for 3rd branch.");
+
                 }
                 else if(addOrWithdraw==2) {
                     System.out.println("Please enter how much money do you want to withdraw");
