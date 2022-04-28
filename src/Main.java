@@ -70,6 +70,7 @@ public class Main {
 
             }
             else {
+                System.out.println("This is for push request from 2nd Branch");
                 break;
             }
 
